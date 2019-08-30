@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5C9991"
+    tools:context=".SinglePlayerActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/textView_SinglePlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:text="System : 0"
+            android:textColor="@color/colorSuapankhi"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2_SinglePlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_SinglePlayer"
+            android:freezesText="true"
+            android:text="You : 0"
+            android:textColor="@color/colorSuapankhi"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonReset_SinglePlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="42dp"
+            android:freezesText="true"
+            android:padding="10dp"
+            android:text="Reset"
+            android:textAlignment="center"
+            android:textColor="@color/colorSuapankhi"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/playerTurn_SinglePlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonReset"
+        android:text="Your Turn"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/button_SinglePlayer_00"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_SinglePlayer_01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_SinglePlayer_02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/button_SinglePlayer_10"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_SinglePlayer_11"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_SinglePlayer_12"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/button_SinglePlayer_20"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_SinglePlayer_21"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/button_SinglePlayer_22"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:freezesText="true"
+            android:background="@drawable/background3"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
